@@ -12,7 +12,7 @@ function Home() {
         <div className="container-xxl">
           <div className="row">
             <div className="col-6">
-              <div className="main-banner p-3 position-relative">
+              <div className="main-banner w-100 position-relative">
                 <img
                   src="/images/main-banner-1.jpg"
                   alt="Main banner"
@@ -352,10 +352,20 @@ function Home() {
             <div className="col-12">
               <h3 className="section-heading">Our Latest Blogs</h3>
             </div>
-            <BlogsCard />
-            <BlogsCard />
-            <BlogsCard />
-            <BlogsCard />
+          </div>
+          <div className="row">
+            <div className="col-3">
+              <BlogsCard />
+            </div>
+            <div className="col-3">
+              <BlogsCard />
+            </div>
+            <div className="col-3">
+              <BlogsCard />
+            </div>
+            <div className="col-3">
+              <BlogsCard />
+            </div>
           </div>
         </div>
       </section>

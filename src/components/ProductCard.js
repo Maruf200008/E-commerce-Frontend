@@ -12,7 +12,10 @@ function ProductCard({ grid }) {
           location.pathname === "/store" ? `gr-${grid}` : `col-3`
         } `}
       >
-        <Link className="product-card shadow-sm position-relative">
+        <Link
+          to="/product/:id"
+          className="product-card shadow-sm position-relative"
+        >
           <div className="wishlist-icon position-absolute">
             <Link>
               {" "}
@@ -66,7 +69,10 @@ function ProductCard({ grid }) {
           location.pathname === "/store" ? `gr-${grid}` : `col-3`
         } `}
       >
-        <Link className="product-card shadow-sm position-relative">
+        <Link
+          to="/product/:id"
+          className="product-card shadow-sm position-relative"
+        >
           <div className="wishlist-icon position-absolute">
             <Link>
               {" "}

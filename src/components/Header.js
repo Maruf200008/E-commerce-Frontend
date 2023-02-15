@@ -31,7 +31,10 @@ function Header() {
           <div className="row align-items-center">
             <div className="col-2">
               <h3>
-                <Link className="text-white"> Orange bd.</Link>
+                <Link to="/" className="text-white">
+                  {" "}
+                  Orange bd.
+                </Link>
               </h3>
             </div>
             <div className="col-5">
@@ -51,7 +54,10 @@ function Header() {
             <div className="col-5">
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/compire-product"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="/images/compare.svg" alt="Compare" />
                     <p className="mb-0">
                       {" "}
@@ -60,7 +66,10 @@ function Header() {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/wishlist"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="/images/wishlist.svg" alt="WishList" />
                     <p className="mb-0">
                       {" "}
@@ -69,7 +78,10 @@ function Header() {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/login"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="/images/user.svg" alt="User" />
                     <p className="mb-0">
                       {" "}
@@ -78,7 +90,10 @@ function Header() {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/cart"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="/images/cart.svg" alt="Cart" />
                     <div className="d-flex flex-column">
                       <span className="badge bg-white text-dark">0</span>

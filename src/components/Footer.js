@@ -71,11 +71,21 @@ function Footer() {
             <div className="col-3">
               <h4 className="text-white mb-4">Information</h4>
               <div className="footer-link d-flex flex-column">
-                <Link className="text-white py-2 mb-1">Privacy Police</Link>
-                <Link className="text-white py-2 mb-1">Refound Police</Link>
-                <Link className="text-white py-2 mb-1">Shoping Police</Link>
-                <Link className="text-white py-2 mb-1">Terms & Conditions</Link>
-                <Link className="text-white py-2 mb-1">Blogs</Link>
+                <Link to="/privcy-policy" className="text-white py-2 mb-1">
+                  Privacy Police
+                </Link>
+                <Link to="/refound-policy" className="text-white py-2 mb-1">
+                  Refound Police
+                </Link>
+                <Link to="/shoping-policy" className="text-white py-2 mb-1">
+                  Shoping Police
+                </Link>
+                <Link to="/terms-condition" className="text-white py-2 mb-1">
+                  Terms & Conditions
+                </Link>
+                <Link to="/blogs" className="text-white py-2 mb-1">
+                  Blogs
+                </Link>
               </div>
             </div>
             <div className="col-3">
@@ -83,7 +93,9 @@ function Footer() {
               <div className="footer-link d-flex flex-column">
                 <Link className="text-white py-2 mb-1">About Us</Link>
                 <Link className="text-white py-2 mb-1">Faq</Link>
-                <Link className="text-white py-2 mb-1">Contact </Link>
+                <Link to="/contact" className="text-white py-2 mb-1">
+                  Contact{" "}
+                </Link>
               </div>
             </div>
             <div className="col-2">
